@@ -13,7 +13,7 @@ docker cp temp_spark_container:/opt/bitnami/spark .
 docker rm temp_spark_container
 
 4. Set SPARK_HOME 
-export SPARK_HOME="/Users/yourusername/spark-binaries/spark"
+export SPARK_HOME="/Users/shubhojeetchakraborty/spark-binaries/spark"
 export PATH="$PATH:$SPARK_HOME/bin"
 
 5. Apply thee changes
