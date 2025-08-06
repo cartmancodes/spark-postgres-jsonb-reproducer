@@ -18,3 +18,7 @@ export PATH="$PATH:$SPARK_HOME/bin"
 
 5. Apply thee changes
 source ~/.zshrc # Or source ~/.bash_profile
+
+# Run spark application 
+
+spark-submit main.py
